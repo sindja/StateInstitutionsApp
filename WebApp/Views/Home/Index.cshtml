@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    @Styles.Render("~/Content/Site.css")
+</head>
+<body>
+    <div id="topdiv"><img src="/Content/grb.jpg" alt="Mountain View" style="width:100%;height:200px;"></div>
+    <div id="leviDiv"></div>
+    <div id="container">
+        <h1> &nbsp &nbsp  &nbsp Izaberite šta želite:</h1>
+        <form method="get" action="/FizickoLice/Start">
+            <input type="submit" value="Fizičko lice" id="fizicko" class="submit" />
+        </form>
+        <form method="get" action="/PravnoLice/Start">
+            <input type="submit" value="Pravno lice" id="pravno" class="submit" />
+        </form>
+    </div>
+    <div id="desniDiv"></div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@model List<string>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@Styles.Render("~/Content/Site.css")
+<html>
+<head>
+    <title>Rezultat</title>
+    @Styles.Render("~/Content/Site.css")
+</head>
+<body>
+    <div id="topdiv"><img src="/Content/grb.jpg" alt="Mountain View" style="width:100%;height:200px;"></div>
+    <div id="leviDiv"></div>
+    <div id="container">
+        <h1>&nbsp &nbsp   &nbsp Izaberite šta želite:</h1>
+        <form method="get" action="/FizickoLice/Start">
+            <input type="submit" value="Fizičko lice" id="fizicko" class="submit" />
+        </form>
+        <form method="get" action="/PravnoLice/Start">
+            <input type="submit" value="Pravno lice" id="pravno" class="submit" />
+        </form>
+        <div id="tabela">
+            <table>
+                <tr class="glavnirow"><td>Opis</td><td>Rok za placanje</td><td>Iznos</td></tr>
+                @foreach (string item in Model)
+                {
+                    char[] delimiterChars = { ',' };
+                    string[] items = item.Split(delimiterChars);
+
+                    <tr>
+                        <td>@Html.Encode(items[0]) </td>
+                        <td>@Html.Encode(items[1]) </td>
+                        <td>@Html.Encode(items[2])  dinara </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <div id="desniDiv"></div>
+</body>
+</html>

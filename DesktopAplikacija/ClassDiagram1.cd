@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesktopAplikacija.DodajFizickoLice" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAEAWEAAAIAAICAAAAiQASAQACAAACAQAAQAAI=</HashCode>
+      <FileName>DodajFizickoLice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.dodajPravnoLice" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABBIACIAABIAAACAAAACAACBQAAAAAAAAAAQAAI=</HashCode>
+      <FileName>dodajPravnoLice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.DodajZapisnik" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAiAAGAAAADIACAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DodajZapisnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.DodavanjePrestupa" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQFCAQEsE+AUBFoAhKiJQAwmAAVpBESAADCAYSARDAM=</HashCode>
+      <FileName>DodavanjePrestupa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Inspektorat" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgRAAAAQCEAAAAAAgiAAAAKAAAAAAAABAAAAAABAAA=</HashCode>
+      <FileName>Inspektorat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Prestupi" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABBJgEyIFAAACAISAAEACIEGgMAAAAwAQQAgQACA=</HashCode>
+      <FileName>Prestupi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Prijava">
+    <Position X="3.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAACAgAAAAAACAAAACAiAAQEAAUQAAAABQAAA=</HashCode>
+      <FileName>Prijava.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Program" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Sud" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAKAAkAAECgBEBgiwSyBAEAKeAWFAAAAAIIAIAmBJIA=</HashCode>
+      <FileName>Sud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Tuzilac" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAgAgAGABkAhyzAyMACQKEACgEAAABIBgFAEABIk=</HashCode>
+      <FileName>Tuzilac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopAplikacija.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

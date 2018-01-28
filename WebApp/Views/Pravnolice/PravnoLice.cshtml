@@ -1,0 +1,32 @@
+﻿@{
+    //ViewBag.Title = "Pravno Lice";
+}
+@Styles.Render("~/Content/Site.css")
+<div id="topdiv"><img src="/Content/grb.jpg" alt="Mountain View" style="width:100%;height:200px;"></div>
+<div id="leviDiv"></div>
+<div id="container">
+    <h1>&nbsp &nbsp &nbsp Izaberite šta želite:</h1>
+    <form method="get" action="/FizickoLice/Start">
+        <input type="submit" value="Fizičko lice" id="fizicko" class="submit" />
+    </form>
+    <form method="get" action="/PravnoLice/Start">
+        <input type="submit" value="Pravno lice" id="pravno" class="submit" />
+    </form>
+    <div class="StarNext">
+        <form id="butF" method="post" action="/PravnoLice/GetPravnoLice">
+            <span> &nbsp &nbsp &nbsp  Ime: </span> <span> &nbsp &nbsp &nbsp  PIB:</span><br>
+            <span> <input type="text" id="textIme" name="textIme" value="" /> </span>
+            <span> <input type="text" id="textPIB" name="textPIB" value="" /> </span><br>
+            <input type="submit" value="Trazi" id="pravnoLiceTrazi" onclick="check();" class=" submit" />
+        </form>
+    </div>
+</div>
+<div id="desniDiv"></div>
+<script>
+    function check() {
+        if (document.getElementById("textPIB").value == "")
+            alert("Unesite identifikacioni broj!!!");
+        else if (document.getElementById("textIme").value == "")
+            alert("Unesite ime.");
+    }
+</script>
